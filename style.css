@@ -1,0 +1,1144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Avatar */
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px;
+}
+
+.avatar .initials {
+    background-color: black;
+    color: white;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar .number {
+    background-color: #777777;
+    color: white;
+    width: 16px;
+    height: 16px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 2px 5px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+
+/* Badge */
+
+.badge p {
+    background-color: #777777;
+    color: white;
+    width: 36px;
+    height: 24px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+
+/* Breadcrumbs */
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin: 16px;
+    border: 1px dashed black;
+    width: 330px;
+    height: 24px;
+    padding: 16px;
+}
+
+.breadcrumbs .first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.breadcrumbs .second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.breadcrumbs .third {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* Breadcrumbs vertical */
+
+.breadcrumbs-vertical {
+    display: flex;
+    gap: 36px;
+    margin: 16px;
+    border: 1px dashed black;
+    padding: 16px;
+    width: 100px;
+}
+
+.breadcrumbs-vertical .one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.breadcrumbs-vertical .two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#777777;
+    gap: 8px;
+}
+
+.breadcrumbs-vertical .three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    gap: 8px;
+}
+
+.breadcrumbs-vertical .four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #CCCCCC;
+    gap: 8px;
+}
+
+
+/* Buttons */
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button {
+    background-color: #777777;
+    color: white;
+    width: 116px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 16px;
+}
+
+.button2 {
+    background-color: #777777;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+
+/* Checkbox */
+
+.checkbox {
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    border: 1px dashed black;
+    padding: 16px;
+    padding-bottom: 0;
+    width: 262px;
+}
+
+.check {
+    display: flex;
+    gap: 34px;
+}
+
+.primary .first-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.primary .second-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.primary .third-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.secondary .label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 9px;
+    margin-bottom: 32px;
+}
+
+.secondary .text {
+    font-size: 12px;
+    color: #777777;
+    line-height: 100%;
+}
+
+
+/* Chip */
+
+.chip {
+    margin: 16px;
+}
+
+.chip .label {
+    color: white;
+    background-color: black;
+    width: 116px;
+    height: 36px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chip .initials {
+    position: absolute;
+    background-color: #777777;
+    color: white;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 100%;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+
+.chip .x {
+    position: absolute;
+    background-color: #777777;
+    width: 28px;
+    height: 28px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+}
+
+
+/* Divider */
+
+.divider {
+    border: 1px dashed black;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 315px;
+    margin: 16px;
+}
+
+.divider .label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 14px;
+    margin-top: 16px;
+}
+
+.divider .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 14px;
+}
+
+.divider .icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 12px;
+}
+
+.divider .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 16px;
+}
+
+.divider .badge2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 12px;
+}
+
+.divider .badge2 p {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    width: 18px;
+    height: 12px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider .action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 28px;
+}
+
+.divider .action .label2 {
+    background-color: black;
+    width: 61px;
+    height: 28px;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+
+/* Input */
+
+.input {
+    border: 1px dashed black;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 16px;
+    width: 352px;
+}
+
+.input .label3 .name {
+    margin-bottom: 0;
+}
+
+.input .label3 .content {
+    width: 320px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 100%;
+    color: #777777;
+    padding-left: 16px;
+    padding-top: 11px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.input .help .name {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.input .help .content {
+    width: 320px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 100%;
+    color: #777777;
+    padding-left: 16px;
+    padding-top: 11px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.input .help .help-text {
+    font-size: 12px;
+    line-height: 100%;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.input .hidden .content {
+    width: 320px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 100%;
+    color: #777777;
+    padding-left: 16px;
+    padding-top: 11px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.input .hint .label-hint {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 24px;
+}
+
+.input .hint .content {
+    width: 320px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 100%;
+    color: #777777;
+    padding-left: 16px;
+    padding-top: 11px;
+    margin-bottom: 0;
+}
+
+.input .lead .name {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.input .lead .envelope {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-left: 16px;
+    width: 320px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 100%;
+    color: #777777;
+    margin-top: 0;
+}
+
+.input .trail .name {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.input .trail .eye {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 320px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 100%;
+    color: #777777;
+    margin-top: 0;
+}
+
+.input .action .name {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.input .action .box-label {
+    background-color: black;
+    color: white;
+    width: 68px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input .action .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 320px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 100%;
+    color: #777777;
+    margin-top: 0;
+}
+
+.input .prefix .name {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.input .prefix .dollar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-left: 16px;
+    width: 320px;
+    height: 38px;
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 100%;
+    color: #777777;
+    margin-top: 0;
+}
+
+
+/* Link */
+
+.link {
+    border: 1px dashed black;
+    display: flex;
+    gap: 32px;
+    padding: 16px;
+    margin: 16px;
+    width: 78px;
+}
+
+.link .link1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    height: 16px;
+    margin-top: 16px;
+}
+
+.link .link1 p {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.link .link2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-top: 0;
+    height: 12px;
+}
+
+.link .link2 p {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.link .link3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    height: 16px;
+
+}
+
+.link .link3 p {
+    font-size: 16px;
+    text-decoration: underline;
+    color:#777777;
+}
+
+.link .link4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-top: 0;
+    height: 12px;
+}
+
+.link .link4 p {
+    font-size: 12px;
+    text-decoration: underline;
+    color:#777777;
+}
+
+.link .link5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    height: 16px;
+}
+
+.link .link5 p {
+    font-size: 16px;
+    text-decoration: underline;
+    color: white;
+}
+
+.link .link6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-top: 0;
+    height: 12px;
+}
+
+.link .link6 p {
+    font-size: 12px;
+    text-decoration: underline;
+    color: white;
+}
+
+.link .link7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    height: 16px;
+}
+
+.link .link7 p {
+    font-size: 16px;
+    text-decoration: underline;
+    color:#CCCCCC;
+}
+
+.link .link8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-top: 0;
+    height: 12px;
+    margin-bottom: 16px;
+}
+
+.link .link8 p {
+    font-size: 12px;
+    text-decoration: underline;
+    color:#CCCCCC;
+}
+
+
+/* Pagination */
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    border: 1px dashed black;
+    padding: 16px;
+    margin: 16px;
+    width: 256px;
+}
+
+.pagination .action-left {
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .one {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.pagination .two {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .dots {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .four {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .five {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .action-right {
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Radio */
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px dashed black;
+    padding: 16px;
+    margin: 16px;
+    width: 354px;
+}
+
+.radio .vertical-radio {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.radio .horizontal-radio {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.radio .vertical-single {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.radio .vertical-single .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 18px;
+}
+
+.radio .vertical-single .middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 18px;
+}
+
+.radio .vertical-single .bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 18px;
+}
+
+.radio .horizontal-single {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.radio .horizontal-single .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 18px;
+}
+
+.radio .horizontal-single .middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 18px;
+}
+
+.radio .horizontal-single .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    height: 18px;
+}
+
+.radio .vertical-double {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.radio .vertical-double .text {
+    font-size: 12px;
+    line-height: 100%;
+    color: #777777;
+}
+
+.radio .vertical-double .top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    height: 36px;
+}
+
+.radio .vertical-double .middle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    height: 36px;
+}
+
+.radio .vertical-double .bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    height: 36px;
+}
+
+.radio .vertical-double p {
+    margin-top: 0;
+}
+
+.radio .horizontal-double {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.radio .horizontal-double .text {
+    font-size: 12px;
+    line-height: 100%;
+    color: #777777;
+}
+
+.radio .horizontal-double .left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    height: 36px;
+}
+
+.radio .horizontal-double .middle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    height: 36px;
+}
+
+.radio .horizontal-double .right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    height: 36px;
+}
+
+.radio .horizontal-double p {
+    margin-top: 0;
+}
+
+
+/* Tabs */
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px dashed black;
+    padding: 16px;
+    margin: 16px;
+    width: 499px;
+}
+
+.tabs .horizontal-compact {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs .horizontal-compact .one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 2px solid black;
+}
+
+.tabs .horizontal-compact p {
+    height: 16px;
+    margin-top: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.tabs .horizontal-compact .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabs .horizontal-compact .three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabs .horizontal-compact .four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabs .horizontal-compact .five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabs .horizontal-streched {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs .horizontal-streched .one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 102px;
+    border-bottom: 2px solid black;
+}
+
+.tabs .horizontal-streched .two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 102px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabs .horizontal-streched .three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 102px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabs .horizontal-streched .four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 102px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabs .horizontal-streched .five {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 102px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tabs .vertical-streched .one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-right: 2px solid black;
+    width: 102px;
+    height: 56px;
+}
+
+.tabs .vertical-streched .two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-right: 1px solid #CCCCCC;
+    width: 102px;
+    height: 56px;
+}
+
+.tabs .vertical-streched .three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-right: 1px solid #CCCCCC;
+    width: 102px;
+    height: 56px;
+}
+
+.tabs .vertical-streched .four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-right: 1px solid #CCCCCC;
+    width: 102px;
+    height: 56px;
+}
+
+.tabs .vertical-streched .five {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-right: 1px solid #CCCCCC;
+    width: 102px;
+    height: 56px;
+}
+
+.tabs .vertical-compact .one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 70px;
+    border-right: 2px solid black;
+}
+
+.tabs .vertical-compact .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 70px;
+    border-right: 1px solid #CCCCCC;
+}
+
+.tabs .vertical-compact .three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 70px;
+    border-right: 1px solid #CCCCCC;
+}
+
+.tabs .vertical-compact .four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 70px;
+    border-right: 1px solid #CCCCCC;
+}
+
+.tabs .vertical-compact .five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 70px;
+    border-right: 1px solid #CCCCCC;
+}
